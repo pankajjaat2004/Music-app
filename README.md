@@ -1,2 +1,3 @@
 # Music-app
-Create music app using itunes api &amp; with responsive design to all screens
+Create music app using i-tunes api
+Responsive design for screens like tab phones and laptop 

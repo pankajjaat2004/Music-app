@@ -5,6 +5,9 @@
 body{
     background-color: black;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 .container{
     display: grid;
     grid-template-areas:"home mainn mainn mainn"
@@ -52,10 +55,17 @@ body{
     }
 }
 
+.playlist::-webkit-scrollbar{
+    display: none;
+}
+
 .playlist{    
     background-color: #121212;
     grid-area: playlist;
     min-height: 330px;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 
     .PlaylistHeader{
         display: flex;
